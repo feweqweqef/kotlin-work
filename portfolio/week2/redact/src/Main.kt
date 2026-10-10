@@ -22,6 +22,7 @@ fun main(args: Array<String>) {
 
     val originalText = inputFile.readText()
     val redactedText = redact(originalText, args[0])
+    
 
     outputFile.writeText(redactedText)
 }
