@@ -2,4 +2,11 @@
 
 fun main() {
     // Add your testing code here
+    val text = "My name is Barry Allen"
+    
+    
+    println(text.howMany { it == 'B'})
+    println(text.howMany { it.isDigit()})
+    println(text.howMany { it.isUpperCase()})
+    
 }
