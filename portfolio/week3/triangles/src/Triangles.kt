@@ -17,6 +17,7 @@ fun isValidTriangle(triangle: Triangle): Boolean{
     
 }
 
+
 fun triangleArea(triangle: Triangle): Double{
     if (!isValidTriangle(triangle)){
         throw IllegalArgumentException("Not valid")
