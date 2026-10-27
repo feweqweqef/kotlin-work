@@ -21,3 +21,4 @@ open class BankAccount(val holder: String) {
         balance -= amount
     }
 }
+
